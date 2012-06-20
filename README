@@ -1,0 +1,16 @@
+sfFeatureTogglePlugin
+=====================
+
+The plugin provides helpers for feature toggling
+
+Usage
+-----
+
+Add your options to a file config/features.yml in format
+feature_name:
+  enabled: true / false
+
+In your template use:
+<?php feature_toggle($name) ?>
+  <!-- code to be hidden when feature is off -->
+<?php end_feature_toggle($name) ?>
