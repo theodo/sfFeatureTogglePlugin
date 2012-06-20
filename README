@@ -1,10 +1,11 @@
 sfFeatureTogglePlugin
-=====================
+---------------------
 
 The plugin provides helpers for feature toggling
 
 Usage
------
+=====
+
 
 Add your options to a file config/features.yml in format
 feature_name:
